@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Header Styles */
+
+nav{
+    background-image: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: right;
+    padding: 200px 0;
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 40px;
+    color: aliceblue;
+}
+.header-content p{
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+.header-button{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    color: cornflowerblue;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* Banner Styles */
+
+.banner-area{
+    padding: 100px 0px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+
+}
+.banner-img{
+
+}
+.banner-content{
+    text-align: left;
+
+}
+
+.banner-content h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-content p{
+    color: gray;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 30px 0px;
+}
+
+.banner-content li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* Divider-text Style */
+
+.divider-text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* Planning Section */
+
+.planning-section{
+    padding: 150px 0px;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.planning-section div{
+    text-align: center;
+}
+
+.planning-section div h2{
+    padding-bottom: 10px;
+}
+.planning-section div p{
+    padding-top: 10px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* First Footer */
+
+.first-footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: url("./images/watch.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 50px;
+    border-radius: 5px;
+
+}
+
+.first-footer h2{
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.contact-button{
+    padding: 10px;
+    background-color: orangered;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Main Footer */
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+   padding: 100px 150px;
+   background-color: black;
+   color: aliceblue;
+   margin-top: 80px;
+}
